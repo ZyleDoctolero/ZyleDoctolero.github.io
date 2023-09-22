@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background: rgb(52, 52, 52);
+}
+
+
+ /* SIDE NAVIGATION BAR */
+
+nav{
+    position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+background: rgb(53, 54, 58);
+width: 90px;
+overflow: hidden;
+transition: width 0.2s linear;
+box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+justify-content: space-around;
+align-items: center;
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+}
+
+.logo img{
+    width: 45px;
+    width: 45px;
+    border-radius: 45px;
+    border-radius: 50%;
+}
+
+.logo span{
+
+font-weight: bold;
+padding-left: 15px;
+font-size: 18px;
+text-transform:uppercase;
+}
+
+a{
+    position: relative;
+    color: rgb(255, 255, 255);
+font-size: 14px;
+display: table;
+width: 300px;
+padding: 10px;
+text-decoration: none;
+}
+
+
+.fas{
+    position: relative;
+     width: 80px;
+    height: 50px;
+    top: 16px;
+    font-size: 25px;
+  
+    
+    }
+
+.nav-item{
+    position: relative;
+    top: 10px;
+    margin-left: 8px;
+}
+
+
+a:hover{
+    background: #eee;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: (181, 181, 181);
+}
+nav:hover{
+    width: 280px;
+    transition:all 0.5 ease;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.container{
+
+    position:absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    
+    }
+    
+    .container .header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60vw;
+        height: 10vh;
+        background: rgb(52, 52, 52);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin-right: 300px ;
+    }
+    
+    .container.header .nav{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .container .nav{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .chart {
+        margin-top: 200px; /* Add some space between header and chart */
+        margin-left: 50px ;
+        border-radius: 1rem;
+        background: #2b2731;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+        width: 600px;
+        height: 600px;
+        padding: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        /* position: center; (Remove this line as it's not valid) */
+    }
+
